@@ -1,0 +1,43 @@
+﻿@model Therapist
+<div class="container-fluid">
+    <form method="post" enctype="multipart/form-data">
+        <h1>Create Therapist</h1>
+        <div class="mb-3">
+            <label asp-for="FullName" class="form-label">Fullname</label>
+            <input asp-for="FullName"  class="form-control" >
+            <span asp-validation-for="FullName"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Profession" class="form-label">Profession</label>
+            <input asp-for="Profession" class="form-control">
+            <span asp-validation-for="Profession"></span>
+        </div>
+           <div class="mb-3">
+            <label asp-for="Image" class="form-label">Image</label>
+            <input asp-for="Image" class="form-control">
+            <span asp-validation-for="Image"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="FbUrl" class="form-label">FbUrl</label>
+            <input asp-for="FbUrl"  class="form-control" >
+            <span asp-validation-for="FbUrl"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="IgUrl" class="form-label">IgUrl</label>
+            <input asp-for="IgUrl"  class="form-control" >
+            <span asp-validation-for="IgUrl"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="TwitterUrl" class="form-label">TwitterURl</label>
+            <input asp-for="TwitterUrl" class="form-control">
+            <span asp-validation-for="TwitterUrl"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="LinkedinUrl" class="form-label">LinkedinURL</label>
+            <input asp-for="LinkedinUrl" class="form-control">
+            <span asp-validation-for="LinkedinUrl"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a class="btn btn-secondary" style="width:120px;height:50px" asp-action="Index" asp-controller="Therapist" >Back To Home</a>
+    </form>
+</div>

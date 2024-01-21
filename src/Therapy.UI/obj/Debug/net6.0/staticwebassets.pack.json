@@ -7425,6 +7425,18 @@
       "PackagePath": "staticwebassets\\Admin\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\Uploads\\Therapists\\5c4f84da-f9bc-4acc-b30b-1a07c9fb47aeteam-1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Therapists\\5c4f84da-f9bc-4acc-b30b-1a07c9fb47aeteam-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\Uploads\\Therapists\\5e4e1e51-e742-4bf7-a415-a1c7645b4384team-2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Therapists\\5e4e1e51-e742-4bf7-a415-a1c7645b4384team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\Uploads\\Therapists\\c35d4acb-e648-439e-9934-31ba41568143team-2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Therapists\\c35d4acb-e648-439e-9934-31ba41568143team-2.jpg"
+    },
+    {
       "Id": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },

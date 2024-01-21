@@ -1,0 +1,38 @@
+﻿@model List<Therapist>
+@{
+    var counter = 0;
+}
+<div class="container-fluid">
+    <div class="mb-3">
+        <h1>About Table</h1>
+        <a class="btn btn-primary" style="width:75px;height:50px" asp-action="Create" asp-controller="Therapist">Create</a>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">FullName</th>
+                <th scope="col">Profession</th>
+                <th scope="col">Image</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                counter++;
+                <tr>
+                    <th scope="row">@counter</th>
+                    <td colspan="2">@item.FullName</td>
+                    <td colspan="3">@item.Profession</td>
+                    <td  colspan="4"><img style="width:50px;height:50px" src="~/Uploads/Therapists/@item.ImageUrl"/></td>
+                    <td>
+                        <a class="btn btn-warning" style="width:70px;height:50px" asp-action="Update" asp-controller="Therapist" asp-route-id="@item.Id">Update</a>
+                        <a class="btn btn-danger" style="width:70px;height:50px" asp-action="Delete" asp-controller="Therapist" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

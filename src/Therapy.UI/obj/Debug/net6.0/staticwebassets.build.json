@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n9umzJv43PItzqlhuzowF2AyFQ1YTt3gXyFvi1W/bnI=",
+  "Hash": "kvtihu+b7MOuLf2N0cn3RFQVn0BPtaHonY2q7LJmXOA=",
   "Source": "Therapy.UI",
   "BasePath": "_content/Therapy.UI",
   "Mode": "Default",
@@ -33709,6 +33709,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\Uploads\\Therapists\\5c4f84da-f9bc-4acc-b30b-1a07c9fb47aeteam-1.jpg",
+      "SourceId": "Therapy.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\",
+      "BasePath": "_content/Therapy.UI",
+      "RelativePath": "Uploads/Therapists/5c4f84da-f9bc-4acc-b30b-1a07c9fb47aeteam-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Therapists\\5c4f84da-f9bc-4acc-b30b-1a07c9fb47aeteam-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\Uploads\\Therapists\\5e4e1e51-e742-4bf7-a415-a1c7645b4384team-2.jpg",
+      "SourceId": "Therapy.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\",
+      "BasePath": "_content/Therapy.UI",
+      "RelativePath": "Uploads/Therapists/5e4e1e51-e742-4bf7-a415-a1c7645b4384team-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Therapists\\5e4e1e51-e742-4bf7-a415-a1c7645b4384team-2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\Uploads\\Therapists\\c35d4acb-e648-439e-9934-31ba41568143team-2.jpg",
+      "SourceId": "Therapy.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.UI\\wwwroot\\",
+      "BasePath": "_content/Therapy.UI",
+      "RelativePath": "Uploads/Therapists/c35d4acb-e648-439e-9934-31ba41568143team-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Therapists\\c35d4acb-e648-439e-9934-31ba41568143team-2.jpg"
     }
   ]
 }

@@ -43,7 +43,7 @@ public class TherapistService : ITherapistService
         }
     }
 
-    public async void Delete(int id)
+    public async Task Delete(int id)
     {
         if (id <= 0 || id == null) throw new IdBelowZero("Id", "Id Is not valid");
         var data = await _therapistrepo.GetAsync(x=> x.Id == id && x.IsDeleted==false);
@@ -59,7 +59,7 @@ public class TherapistService : ITherapistService
 
     public async Task<Therapist> GetById(int id)
     {
-        return await _therapistrepo.GetAsync(x=> x.Id == id);
+        return await _therapistrepo.GetAsync(x=> x.Id == id && x.IsDeleted==false);
     }
 
     public async Task UpdateAsync(Therapist therapist)
@@ -86,6 +86,7 @@ public class TherapistService : ITherapistService
             existTherapist.IgUrl= therapist.IgUrl;
             existTherapist.TwitterUrl= therapist.TwitterUrl;
             existTherapist.LinkedinUrl= therapist.LinkedinUrl;
+            existTherapist.UpdateDate = DateTime.Now;
             if(File.Exists(expiredpath))
             {
                 File.Delete(expiredpath);
@@ -101,6 +102,7 @@ public class TherapistService : ITherapistService
             existTherapist.IgUrl = therapist.IgUrl;
             existTherapist.TwitterUrl = therapist.TwitterUrl;
             existTherapist.LinkedinUrl = therapist.LinkedinUrl;
+            existTherapist.UpdateDate = DateTime.Now;
             await _therapistrepo.CommitAsync();
         }
     }
