@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Therapy.Business.CustomExceptions;
 using Therapy.Business.Services.Interfaces;
 using Therapy.Core.Models;
@@ -7,6 +8,7 @@ using Therapy.Data.DAL;
 namespace Therapy.UI.Areas.manage.Controllers
 {
     [Area("manage")]
+    [Authorize(Roles ="Admin")]
     public class TherapistController : Controller
     {
         private readonly ITherapistService _therapistservice;
@@ -102,12 +104,12 @@ namespace Therapy.UI.Areas.manage.Controllers
 
             return RedirectToAction("Index");
         }
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0 || id == null) return NotFound();
             try
             {
-                _therapistservice.Delete(id);
+               await  _therapistservice.Delete(id);
             }
             catch (IdBelowZero ex)
             {
