@@ -4,6 +4,7 @@ using Therapy.Business;
 using Therapy.Core.Models;
 using Therapy.Data;
 using Therapy.Data.DAL;
+using Therapy.UI.ViewServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddRepository();
 builder.Services.AddService();
+
+builder.Services.AddScoped<LayoutService>();
 
 builder.Services.AddIdentity<AppUser,IdentityRole>(opt =>
 {

@@ -10,5 +10,6 @@ public static class ServiceRegistration
     {
         service.AddScoped<ITherapistService, TherapistService>();
         service.AddScoped<IAccountService, AccountService>();
+        service.AddScoped<ISettingService, SettingService>();
     }
 }

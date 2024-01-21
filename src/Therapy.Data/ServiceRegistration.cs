@@ -14,7 +14,7 @@ namespace Therapy.Data
         public static void AddRepository(this IServiceCollection service) 
         {
             service.AddScoped<ITherapistRepository, TherapistRepository>();
-            
+            service.AddScoped<ISettingRepository, SettingRepository>();
         }
 
     }
