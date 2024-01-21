@@ -46,9 +46,9 @@ public class TherapistService : ITherapistService
     public async Task Delete(int id)
     {
         if (id <= 0 || id == null) throw new IdBelowZero("Id", "Id Is not valid");
-        var data = await _therapistrepo.GetAsync(x=> x.Id == id && x.IsDeleted==false);
+        var data = await _therapistrepo.GetAsync(x=> x.Id == id);
         if (data == null) throw new EntityIsNullException("Therapist", "Entity not found");
-         _therapistrepo.DeleteAsync(data);
+         _therapistrepo.Delete(data);
         await _therapistrepo.CommitAsync();
     }
 
@@ -59,7 +59,7 @@ public class TherapistService : ITherapistService
 
     public async Task<Therapist> GetById(int id)
     {
-        return await _therapistrepo.GetAsync(x=> x.Id == id && x.IsDeleted==false);
+        return await _therapistrepo.GetAsync(x=> x.Id == id);
     }
 
     public async Task UpdateAsync(Therapist therapist)

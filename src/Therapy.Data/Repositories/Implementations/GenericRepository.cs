@@ -27,9 +27,10 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
         await Table.AddAsync(entity);
     }
 
-    public void DeleteAsync(T entity)
+    public void Delete(T entity)
     {
         Table.Remove(entity);
+
     }
 
     public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)

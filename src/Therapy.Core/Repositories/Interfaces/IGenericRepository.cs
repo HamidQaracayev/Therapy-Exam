@@ -8,7 +8,7 @@ public interface IGenericRepository<T> where T : BaseEntity,new()
 {
     public DbSet<T> Table { get; }
     Task CreateAsync(T entity);
-    void DeleteAsync(T entity);
+    void Delete(T entity);
 
     Task<int> CommitAsync();
 

@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Therapy.Business;
+using Therapy.Core.Models;
 using Therapy.Data;
 using Therapy.Data.DAL;
 
@@ -10,6 +12,11 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddRepository();
 builder.Services.AddService();
+
+builder.Services.AddIdentity<AppUser,IdentityRole>(opt =>
+{
+    opt.Password.RequireNonAlphanumeric = true;
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {

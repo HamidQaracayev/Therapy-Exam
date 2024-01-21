@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2/4GI0JwaCTcUH15XMhRgfq7/swCw1LbrNKHGDS6q/EYv6pc77z8f3BZfLzVrZpKHYFpqqNriWUhTGFvdo2pkg==",
+  "dgSpecHash": "BvyuMrWzcyIfRUCQgVuTbnXBO0duSC8ajm0sOH14l2i0aEk2r+9EhkO6XLDV3Ovxdz0jWStJnQj+CSvwnTrxvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\II novbe\\Desktop\\rand\\Therapy\\src\\Therapy.Data\\Therapy.Data.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.26\\microsoft.entityframeworkcore.design.6.0.26.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.26\\microsoft.entityframeworkcore.relational.6.0.26.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.26\\microsoft.entityframeworkcore.sqlserver.6.0.26.nupkg.sha512",
+    "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.26\\microsoft.entityframeworkcore.tools.6.0.26.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
