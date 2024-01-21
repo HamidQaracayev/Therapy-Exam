@@ -1,0 +1,17 @@
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\bin\Debug\net6.0\Therapy.Data.deps.json
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\bin\Debug\net6.0\Therapy.Data.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\bin\Debug\net6.0\Therapy.Data.pdb
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\bin\Debug\net6.0\Therapy.Core.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\bin\Debug\net6.0\Therapy.Core.pdb
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.csproj.CopyComplete
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\refint\Therapy.Data.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.pdb
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\ref\Therapy.Data.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\bin\Debug\net6.0\Therapy.Data.runtimeconfig.json
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Data\obj\Debug\net6.0\Therapy.Data.genruntimeconfig.cache

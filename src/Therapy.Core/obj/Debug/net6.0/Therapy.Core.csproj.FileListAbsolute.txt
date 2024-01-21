@@ -1,0 +1,14 @@
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\bin\Debug\net6.0\Therapy.Core.deps.json
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\bin\Debug\net6.0\Therapy.Core.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\bin\Debug\net6.0\Therapy.Core.pdb
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\refint\Therapy.Core.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.pdb
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\ref\Therapy.Core.dll
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\bin\Debug\net6.0\Therapy.Core.runtimeconfig.json
+C:\Users\II novbe\Desktop\rand\Therapy\src\Therapy.Core\obj\Debug\net6.0\Therapy.Core.genruntimeconfig.cache
