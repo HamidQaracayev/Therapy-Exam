@@ -24,16 +24,32 @@ public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity, 
 
     public void DeleteAsync(T entity)
     {
-        throw new NotImplementedException();
+        Table.Remove(entity);
     }
 
-    public Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)
+    public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)
     {
-        throw new NotImplementedException();
+        var query = Table.AsQueryable();
+        if(includes is not null)
+        {
+            foreach (var item in includes)
+            {
+                query = query.Include(item);
+            }
+        }
+        return expression is not null ? await query.Where(expression).ToListAsync() : await query.ToListAsync();
     }
 
-    public Task<T> GetAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)
+    public async Task<T> GetAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes)
     {
-        throw new NotImplementedException();
+        var query = Table.AsQueryable();
+        if (includes is not null)
+        {
+            foreach (var item in includes)
+            {
+                query = query.Include(item);
+            }
+        }
+        return expression is not null ? await query.Where(expression).FirstOrDefaultAsync() : await query.FirstOrDefaultAsync();
     }
 }
