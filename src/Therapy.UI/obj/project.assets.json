@@ -909,7 +909,10 @@
         },
         "runtime": {
           "bin/placeholder/Therapy.Business.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Therapy.Core/1.0.0": {
         "type": "project",

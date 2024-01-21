@@ -23,4 +23,8 @@
     <ProjectReference Include="..\Therapy.Business\Therapy.Business.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Uploads\Therapists\" />
+  </ItemGroup>
+
 </Project>

@@ -10,6 +10,8 @@ public interface IGenericRepository<T> where T : BaseEntity,new()
     Task CreateAsync(T entity);
     void DeleteAsync(T entity);
 
+    Task<int> CommitAsync();
+
     Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes);
     Task<T> GetAsync(Expression<Func<T, bool>>? expression = null, params string[]? includes);
 }
