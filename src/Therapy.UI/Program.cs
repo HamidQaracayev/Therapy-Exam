@@ -1,10 +1,15 @@
 using Microsoft.EntityFrameworkCore;
+using Therapy.Business;
+using Therapy.Data;
 using Therapy.Data.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddRepository();
+builder.Services.AddService();
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
@@ -27,6 +32,14 @@ app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+      name: "areas",
+      pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+    );
+});
 
 app.MapControllerRoute(
     name: "default",
